@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => {
-  return <div>hi</div>;
-}
+import App from './components/app';
 
 ReactDOM.render(<App />, document.getElementById("app"));
